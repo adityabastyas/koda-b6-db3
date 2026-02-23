@@ -5,9 +5,9 @@
 
 SELECT "name", "year" FROM movies WHERE "year" > '2000' ORDER BY "year"
 
---SELECT "first_name", "last_name" FROM "actors" WHERE "first_name"  LIKE '%s' ORDER BY "first_name"
+SELECT "first_name", "last_name" FROM "actors" WHERE "first_name"  LIKE '%s' ORDER BY "first_name"
 
---SELECT "name", "rankscore", "year" FROM "movies" WHERE "rankscore" BETWEEN 5 AND  7 AND "year" BETWEEN 2004 AND 2006 ORDER BY "name"
+SELECT "name", "rankscore", "year" FROM "movies" WHERE "rankscore" BETWEEN 5 AND  7 AND "year" BETWEEN 2004 AND 2006 ORDER BY "name"
 
 
---SELECT COUNT("rankscore") FROM "movies" WHERE "rankscore" = 6
+SELECT COUNT("rankscore") FROM "movies" WHERE "rankscore" = 6
